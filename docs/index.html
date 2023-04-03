@@ -13,14 +13,18 @@ body {
   align-items: center;
   justify-content: center;
   padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .items {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  max-width: 640px;
-}
+  max-width: 256px;
+  }
 
 .banner-image {
   width: 128px;
@@ -44,6 +48,14 @@ body {
   display: flex;
   justify-content: space-around;
 }
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
 
 </style>
 
@@ -73,7 +85,7 @@ body {
   <a target="_blank" href="https://www.dir.co.jp/report/research/capital-mkt/asset/20200529_021571.html">  My recent research paper 01
     </a>
   <img
-    src="thumbnails/re_price.png">
+    src="thumbnails/re_price.png" class="center-image">
 </div>
 
 <p></p>
@@ -82,5 +94,5 @@ body {
   <a target="_blank" href="https://www.dir.co.jp/report/research/capital-mkt/asset/20200529_021571.html"> My recent research paper 02
   </a>
   <img
-    src="thumbnails/nade.png">
+    src="thumbnails/nade.png" class="center-image">
 </div>
